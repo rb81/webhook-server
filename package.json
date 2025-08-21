@@ -1,0 +1,16 @@
+{
+  "name": "webhook-server",
+  "version": "1.0.0",
+  "description": "Simple webhook endpoint that saves JSON payloads to files",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["webhook", "docker", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
